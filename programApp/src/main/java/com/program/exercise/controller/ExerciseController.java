@@ -14,9 +14,9 @@ import com.program.exercise.service.ExerciseServiceI;
 @Controller
 public class ExerciseController {
 
-	public final static String GET_LIST = "/getListExercises.do";
+	public final static String GET_LIST = "/getListExercises.web";
 	
-	public final static String LIST_PAGE = "ListExercise.jsp";
+	public final static String LIST_PAGE = "ListExercise";
 	
 	@Autowired
 	private ExerciseServiceI exerciseService;
