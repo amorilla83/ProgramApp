@@ -10,7 +10,7 @@
   <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <spring.version>4.3.13.RELEASE</spring.version>
+        <spring.version>4.3.16.RELEASE</spring.version>
     </properties>
   <dependencies>
     <dependency>
@@ -68,6 +68,13 @@
 		    <artifactId>spring-beans</artifactId>
 		    <version>${spring.version}</version>
 		</dependency>
+		
+	<!-- Dependencia para los jsp -->
+	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
     
     <!-- Dependencia de log4j -->
     <dependency>
